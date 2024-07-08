@@ -3,6 +3,10 @@ description: A simple and effective lecture management system.
 baseurl: "/lecture-manage-system" # the subpath of your site
 url: "https://donphili.github.io" # the base hostname & protocol for your site
 
+# Exclude node_modules from Jekyll processing
+exclude:
+  - "node_modules"
+
 # Build settings
 markdown: kramdown
 theme: minima
